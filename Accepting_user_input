@@ -1,0 +1,7 @@
+# Accepting user input
+# It can be stored in a variable.
+name = input("Please enter your name: ")
+birth_year = input("Please enter your birth year: ")
+
+print("Hello " + name + "! You were born in " + birth_year + "!")
+
