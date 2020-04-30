@@ -8,7 +8,7 @@ print("Hello \nthere")
 
 # We can store stings in a variable. HINT: Think of a variable as a bucket where you can store stuff.
 # Variable name has no quotation marks, but the object has them.
-# The = is the assignment operator.
+# The equal sign is the assignment operator.
 
 hi = "hello there"
 name = "Sam"
