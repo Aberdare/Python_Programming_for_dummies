@@ -1,0 +1,54 @@
+# Print a simple string
+print("Hello there")
+
+# This prints out the phrase "Hello there" on one line.
+# To print out the phrase on two separate lines, we use the \n function.
+
+print("Hello \nthere")
+
+# We can store stings in a variable. HINT: Think of a variable as a bucket where you can store stuff.
+# Variable name has no quotation marks, but the object has them.
+# The = is the assignment operator.
+
+hi = "hello there"
+name = "Sam"
+greet = hi + name
+print(greet)
+
+# To insert a blank space in thereSam
+greet = hi + " " + name
+print(greet)
+
+# Capitalize all the letters in the string using "upper" funtion
+print(greet.upper())
+
+# Write all the letters in the string using "lower" function
+print(greet.lower())
+
+# To convert all letters in the string to UPPERCASE then confirm they are all UPPER CASE
+print(greet.upper().isupper())
+
+# To convert all letters in the string to lower case then confirm they are all lower case
+print(greet.lower().islower())
+
+# The length of a string can be determined using the "len" function.
+# The variable greet now contains "hello there Sam" (all lower case)
+# This is a total of 15 characters including the spaces.
+print(len(greet))
+
+# To locate the index of a specific letter, i.e its position in the phrase
+# Note that the first letter in the string is indexed as 0
+print(greet.index("h"))
+
+# To locate the index of a phrase within the string
+# the first letter encountered in the phrase has it's index number printed out
+print(greet.index("there"))
+
+# Letters from string can be printed using "[]" and their index.
+print(greet[0])
+
+# To replace a section of a matching string, we use the "replace" function.
+print(greet.replace("Sam", "John"))
+
+# Strings can be added in the print function (concatenation). Fancy word meaning 'add'
+print(greet + ", how are you?")
