@@ -1,0 +1,36 @@
+# We create lists by using []
+# The individual elements which have '' are then inserted into this []
+fruits = ["Apples", "Mangoes", "Bananas", "Pineapples", "Cherries", "Plums", "Avocados", "Peaches"]
+
+# Print all the elements in the list
+print(fruits)
+
+# The first element is indexed as 0, the second as 1, the third as 2, etc
+# Print the first element in the list (apples)
+print(fruits[0])
+
+# Print the second element in the list (mangoes)
+print(fruits[1])
+
+# Print the third element in the list (bananas)
+print(fruits[2])
+
+# If you have many elements, counting upwards from 0 can be cumbersome
+# To start from the eng counting backwards, the last element (peaches) is indexed as -1
+print(fruits[-1])
+
+# The second last element (avocados) is indexed as -2
+print(fruits[-2])
+
+# Print all elements in the list starting from the second one, we start at 1
+print(fruits[1:])
+
+# Print all elements in the list starting from the third one, we start at 2
+print(fruits[2:])
+
+# To print elements within a range, say from the third to the sixth element
+print(fruits[2:6])
+
+# To replace an element element in the list and print it, for example the fourth element
+fruits[4] = "Oranges"
+print(fruits)
