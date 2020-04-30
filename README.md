@@ -8,4 +8,5 @@ But fear not...let's dive right into it:
 1. Basic 'Hello world' program
 2. Strings
 3. Lists
-4. 
+4. Getting user input
+5. 
