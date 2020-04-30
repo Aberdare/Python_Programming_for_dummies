@@ -1,0 +1,96 @@
+# Describing two lists
+# Note that when the elements are integers, there is no need of quotation marks
+# Combining any two lists from the three lists
+countries = ["Kenya", "Croatia", "Mexico", "Brazil", "Japan", "New Zealand", "Malawi"]
+rivers = ["Nile", "Amazon", "Congo", "Yang Tze"]
+random_numbers = [8, 17, 61, 12, 4, 95]
+countries.extend(rivers)
+print(countries)
+
+rivers.extend(random_numbers)
+print(rivers)
+
+countries.extend(random_numbers)
+print(countries)
+
+# To ATTACH a new element to the END of a list, we use the "append" function.
+countries = ["Kenya", "Croatia", "Mexico", "Brazil", "Japan", "New Zealand", "Malawi"]
+countries.append("Ireland")
+print(countries)
+
+rivers = ["Nile", "Amazon", "Congo", "Yang Tze"]
+rivers.append("Limpopo")
+print(rivers)
+
+# To REMOVE the last element in a list, we use the "pop" function.
+countries = ["Kenya", "Croatia", "Mexico", "Brazil", "Japan", "New Zealand", "Malawi"]
+countries.pop()
+print(countries)
+
+# To add a new element where in a given INDEXED LOCATION we use the "insert" function.
+# Inserting a new makes the list length grow by one element
+# For example location indexed by 1
+countries = ["Kenya", "Croatia", "Mexico", "Brazil", "Japan", "New Zealand", "Malawi"]
+print(len(countries))  # Determining length before inserting new element
+countries.insert(1, "China")
+print(countries)
+print(len(countries))  # Determining length after inserting new element
+
+rivers = ["Nile", "Amazon", "Congo", "Yang Tze"]
+rivers.insert(1, "Volta")
+print(rivers)
+
+# Removing an element in a specified location, we use the "remove" function.
+countries = ["Kenya", "Croatia", "Mexico", "Brazil", "Japan", "New Zealand", "Malawi"]
+countries.remove("New Zealand")
+print(countries)
+
+# To empty the entire list, we use the "clear" function.
+countries = ["Kenya", "Croatia", "Mexico", "Brazil", "Japan", "New Zealand", "Malawi"]
+countries.clear()
+print(countries)
+
+# To determine the index of a given element in a list, we use the "index" function.
+countries = ["Kenya", "Croatia", "Mexico", "Brazil", "Japan", "New Zealand", "Malawi"]
+print(countries.index("Brazil"))
+print(countries.index("Japan"))
+print(countries.index("Kenya"))
+
+# To determine the number of times an element appears in the list, we use the "count" function.
+random_numbers = [8, 17, 61, 12, 4, 95, 17]
+print(random_numbers.count(17))
+print(random_numbers.count(4))
+
+countries = ["Kenya", "Croatia", "Mexico", "Brazil", "Japan", "New Zealand", "Malawi"]
+print(countries.count("Croatia"))
+print(countries.count("Kenya"))
+
+# To arrange the items in alphabetical order, we use the "sort" function.
+countries = ["Kenya", "Croatia", "Mexico", "Brazil", "Japan", "New Zealand", "Malawi"]
+countries.sort()
+print(countries)
+
+# "For reverse alphabetical order, we use the reverse" function.
+countries.reverse()
+print(countries)
+
+rivers.reverse()
+print(rivers)
+
+# For integers, the "reverse" function lists them from last to first
+random_numbers.reverse()
+print(random_numbers)
+
+# To copy the entire list, we use the "copy" function.
+countries = ["Kenya", "Croatia", "Mexico", "Brazil", "Japan", "New Zealand", "Malawi"]
+new_countries = countries.copy()
+print(new_countries)
+
+rivers = ["Nile", "Amazon", "Congo", "Yang Tze"]
+new_rivers = rivers.copy()
+print(new_rivers)
+
+
+
+
+
