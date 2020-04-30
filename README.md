@@ -1,10 +1,10 @@
 # Python_Programming_for_dummies
-Learn how to code using Python.
+So you want to learn how to code using Python???
 
-"You're off the edge of the map, mate. Here there be monsters!"
+"YOU'RE OFF THE EDGE OF THE MAP, MATE. HERE THERE BE MONSTERS!"
 
-But fear not...
-Let's dive into Python Programming:
-1. Basic Hello world program
+But fear not...let's dive right into it:
+
+1. Basic 'Hello world' program
 2. Strings
 3. 
