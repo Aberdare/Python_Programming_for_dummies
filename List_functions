@@ -77,7 +77,7 @@ print(countries)
 rivers.reverse()
 print(rivers)
 
-# For integers, the "reverse" function lists them from last to first
+# For integers, the "reverse" function lists them in descending order
 random_numbers.reverse()
 print(random_numbers)
 
