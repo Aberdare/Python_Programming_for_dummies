@@ -1,0 +1,36 @@
+# Tuples are immutable, meaning that it's not possible to delete the items they contain.
+# Tuples are preferably used where we have no intention of changing the data later in the code.
+# List syntax
+coordinates = [2, 19]
+print(coordinates)
+
+# Changing value of the first element
+coordinates[1] = [31]
+print(coordinates[1])
+
+# Tuples syntax
+coordinates = (2, 19)
+print(coordinates)
+
+# Changing value of the first element
+# This line of code: coordinates[1] = [31] will return an error when the program is run.
+print(coordinates[1])
+
+# To construct a tuple with a single element, use a comma
+random_number = (2,)
+print(random_number)
+
+# You can spread out the tuple elements over several lines without need for the "\" continuation character.
+my_list = (1,
+           2,
+           3,
+           4)
+print(my_list)
+
+# Length of a tuple
+ruffle = (1, 20, 88, 34, 8, 17)
+print(len(ruffle))
+
+
+
+
