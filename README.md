@@ -9,4 +9,5 @@ But fear not...let's dive right into it:
 2. Strings
 3. Lists
 4. Getting user input
-5. 
+5. List functions
+6. Tuples
