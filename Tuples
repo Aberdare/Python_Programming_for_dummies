@@ -31,6 +31,13 @@ print(my_list)
 ruffle = (1, 20, 88, 34, 8, 17)
 print(len(ruffle))
 
+# Tuples can be contained in a list as elements, provided they are enclosed by the [] characters.
+numbers = [(77, 21), (8, 23), (10, 11)]
+print(numbers[2])
+
+
+
+
 
 
 
